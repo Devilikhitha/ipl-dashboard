@@ -2,7 +2,7 @@
 import './index.css'
 
 const LatestMatch = props => {
-  const {LatestMatchData} = props
+  const {latestMatchData} = props
   const {
     competingTeam,
     date,

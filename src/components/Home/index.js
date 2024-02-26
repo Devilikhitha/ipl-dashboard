@@ -46,6 +46,7 @@ class Home extends Component {
   }
 
   renderLoader = () => (
+    // eslint-disable-next-line react/no-unknown-property
     <div testid="loader" className="loader-container">
       <Loader type="Oval" color="#ffffff" height={50} />
     </div>
